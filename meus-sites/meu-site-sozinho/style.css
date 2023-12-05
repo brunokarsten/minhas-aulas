@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'alcatra' ;
+    src: url(fontes/Alkatra-Regular.ttf) format(truetype);
+}
+
+
+
+header{
+background-image: linear-gradient(to top, black , #9c312d 10%, #BA130D );
+box-shadow: 4px 3px 11px 1px #872824;
+border-radius: 5px;
+text-align: center;
+}
+header > h1{
+    font-family: 'alcatra';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+header p {
+text-align: center;
+font-size: 1.2em;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: black;
+font-style: bolder;
+
+
+}
+nav > a{
+text-decoration: none;
+color: white;
+padding: 8px;
+font-size: 20px;
+
+}
+nav > a:hover{
+text-decoration: underline;
+}
+article{
+background-color: silver;
+margin: 10px;
+padding: 20px;
+
+
+}
+#inicio{
+text-decoration: none;
+background-color: #e90a02d0;
+color: black;
+font-family: cursive;
+padding: 5px 15px;
+border-radius: 5px;
+
+
+
+}
+#mengo{
+display: inline;
+max-width: 30px;
+padding-left: 20px;
+padding-top: 3px;
+
+
+}
+
+article h2{
+color: #872824;
+text-align: center;
+font-size: 25px;
+background-color: white;
+border-radius: 5px;
+font-size: 30px;
+
+
+}
+article h3{
+text-align: center;
+font-style: bolder;
+color: darkred;
+background-color: white;
+border-radius: 5px;
+font-size: 25px
+
+}
+img{
+max-width: 50%;
+display: block;
+margin: auto;
+}
+#tabela{
+background-color: white;
+border-radius: 5px;
+padding: 20px;
+list-style-position: inside;
+font-size: 1em;
+font-family: cursive;
+
+
+}
+footer{
+text-align: center;
+
+}
